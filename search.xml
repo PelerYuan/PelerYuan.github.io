@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>WSL2.1.5.0 ubuntu22.04 proxy configration</title>
+      <link href="/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/"/>
+      <url>/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/</url>
+      
+        <content type="html"><![CDATA[<p>(images from <a href="https://betanews.com/2022/11/16/windows-subsystem-for-linux-wsl-1/">https://betanews.com/2022/11/16/windows-subsystem-for-linux-wsl-1/</a> just for non-bussiness use, thanks a lot)</p><h2 id="WSL2-1-5-0-ubuntu22-04-proxy-configration"><a href="#WSL2-1-5-0-ubuntu22-04-proxy-configration" class="headerlink" title="WSL2.1.5.0 ubuntu22.04 proxy configration"></a>WSL2.1.5.0 ubuntu22.04 proxy configration</h2><p>Just for a record.</p><p>It’s very funny. I updated WSL to the latest version, and I found all the method on the Internet was complex and not avaliable any more.</p><p>After trying for lots of methods, I suddenly heard some one said put it simple.</p><p>And…</p><p>it’s really simple! INDEED!</p><p>new version have an excellent adaptation of proxy.</p><h3 id="solution"><a href="#solution" class="headerlink" title="solution"></a>solution</h3><ol><li><p>create .wslconfig in <code>C:\Users\YOUR_USERNAME</code> if you can’t find it</p></li><li><p>open it and write the code below:</p><pre class="line-numbers language-wslconfig" data-language="wslconfig"><code class="language-wslconfig">[wsl2]networkingMode=mirrored<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li><li><p>open a powershell(better with administration) and restart the WSL by the command below:</p><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">wsl --shutdown<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>then run WSL just by the command:</p><pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">wsl<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>if you are in China MainLand, check it with google(make sure you have turned on the proxy on Windows), input the command below in WSL:</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">wget www.google.com<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>if you get something like this:</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">peler@peler:/mnt/c/Users/peler$ wget www.google.com--2024-04-04 08:54:08--  http://www.google.com/Connecting to 127.0.0.1:7890... connected.Proxy request sent, awaiting response... 200 OKLength: unspecified [text/html]Saving to: ‘index.html.6’index.html.6                      [ &lt;=&gt;                                              ]  19.48K  --.-KB/s    in 0.06s2024-04-04 08:54:08 (342 KB/s) - ‘index.html.6’ saved [19947]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>then congratulations!</p></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2024/03/29/hello-world/"/>
       <url>/2024/03/29/hello-world/</url>
