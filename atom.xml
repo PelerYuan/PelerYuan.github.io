@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-04-05T12:45:49.583Z</updated>
+  <updated>2024-04-05T12:48:23.723Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.blog.peler.top/2024/04/05/change-my-avatar/"/>
     <id>http://www.blog.peler.top/2024/04/05/change-my-avatar/</id>
     <published>2024-04-05T12:35:27.000Z</published>
-    <updated>2024-04-05T12:45:49.583Z</updated>
+    <updated>2024-04-05T12:48:23.723Z</updated>
     
     
       
@@ -35,6 +35,12 @@
     
     
     
+    <category term="daily life" scheme="http://www.blog.peler.top/categories/daily-life/"/>
+    
+    
+    <category term="avatar" scheme="http://www.blog.peler.top/tags/avatar/"/>
+    
+    <category term="daily life" scheme="http://www.blog.peler.top/tags/daily-life/"/>
     
   </entry>
   
