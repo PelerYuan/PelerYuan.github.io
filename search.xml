@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>An amazing project on GitHub to build a QQzone on your own computer</title>
+      <link href="/2024/04/05/An-amazing-project-on-GitHub-to-build-a-QQzone-on-your-own-computer/"/>
+      <url>/2024/04/05/An-amazing-project-on-GitHub-to-build-a-QQzone-on-your-own-computer/</url>
+      
+        <content type="html"><![CDATA[<p>Today I was wondering if that I can make a website as the clone of my QQzone so that not only my Chinese friends but also some international friends can access it and see my posts.</p><p>As well, I searched on Google and find this amazing project <a href="https://github.com/wwwpf/QzoneExporter">https://github.com/wwwpf/QzoneExporter</a>. I forked it and undefinently it worked well!</p><p>And it also support to generate a website by flask, but the website’s style was duplicated from the official QQzone so of course it’s a little bit out dated.</p><p>Next step I ganna try to design a website by myself, hope I will be success.</p><p>Thanks to GitHub and the anthor of this project!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> GitHub Projects </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub Projects </tag>
+            
+            <tag> Useful tools </tag>
+            
+            <tag> Develop note </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Change my avatar</title>
       <link href="/2024/04/05/change-my-avatar/"/>
       <url>/2024/04/05/change-my-avatar/</url>

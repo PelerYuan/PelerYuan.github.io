@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-04-05T12:48:23.723Z</updated>
+  <updated>2024-04-05T13:39:10.733Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>An amazing project on GitHub to build a QQzone on your own computer</title>
+    <link href="http://www.blog.peler.top/2024/04/05/An-amazing-project-on-GitHub-to-build-a-QQzone-on-your-own-computer/"/>
+    <id>http://www.blog.peler.top/2024/04/05/An-amazing-project-on-GitHub-to-build-a-QQzone-on-your-own-computer/</id>
+    <published>2024-04-05T13:32:01.000Z</published>
+    <updated>2024-04-05T13:39:10.733Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Today I was wondering if that I can make a website as the clone of my QQzone so that not only my Chinese friends but also some</summary>
+        
+      
+    
+    
+    
+    <category term="GitHub Projects" scheme="http://www.blog.peler.top/categories/GitHub-Projects/"/>
+    
+    
+    <category term="GitHub Projects" scheme="http://www.blog.peler.top/tags/GitHub-Projects/"/>
+    
+    <category term="Useful tools" scheme="http://www.blog.peler.top/tags/Useful-tools/"/>
+    
+    <category term="Develop note" scheme="http://www.blog.peler.top/tags/Develop-note/"/>
+    
+  </entry>
   
   <entry>
     <title>Change my avatar</title>
