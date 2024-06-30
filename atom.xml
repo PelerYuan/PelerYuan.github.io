@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-04-06T08:08:18.657Z</updated>
+  <updated>2024-03-29T06:45:15.948Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.blog.peler.top/2024/06/30/hello-world/"/>
+    <id>http://www.blog.peler.top/2024/06/30/hello-world/</id>
+    <published>2024-06-30T01:32:28.161Z</published>
+    <updated>2024-03-29T06:45:15.948Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>RuoZhiBa performed the best as datasets to AI?</title>
@@ -53,7 +74,7 @@
     <link href="http://www.blog.peler.top/2024/04/05/An-amazing-project-on-GitHub-to-build-a-QQzone-on-your-own-computer/"/>
     <id>http://www.blog.peler.top/2024/04/05/An-amazing-project-on-GitHub-to-build-a-QQzone-on-your-own-computer/</id>
     <published>2024-04-05T13:32:01.000Z</published>
-    <updated>2024-04-05T13:39:10.733Z</updated>
+    <updated>2024-04-25T10:19:23.672Z</updated>
     
     
       
@@ -110,14 +131,14 @@
     <link href="http://www.blog.peler.top/2024/04/05/A-special-way-for-programmers-to-design-their-slides/"/>
     <id>http://www.blog.peler.top/2024/04/05/A-special-way-for-programmers-to-design-their-slides/</id>
     <published>2024-04-05T00:26:05.000Z</published>
-    <updated>2024-04-05T00:53:40.958Z</updated>
+    <updated>2024-04-25T10:18:49.972Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Yesterday I was making slides for the lecture in Chinese lessons. I always confused by something about designing, but yesterday I fonud</summary>
+    <summary type="html">&lt;p&gt;Yesterday I was making slides for the lecture in Chinese lessons. I always confused by something about designing, but yesterday I found</summary>
         
       
     
@@ -162,27 +183,6 @@
     <category term="proxy" scheme="http://www.blog.peler.top/tags/proxy/"/>
     
     <category term="configration" scheme="http://www.blog.peler.top/tags/configration/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://www.blog.peler.top/2024/03/29/hello-world/"/>
-    <id>http://www.blog.peler.top/2024/03/29/hello-world/</id>
-    <published>2024-03-29T06:45:15.948Z</published>
-    <updated>2024-03-29T06:45:15.948Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
