@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2024/09/16/hello-world/"/>
+      <url>/2024/09/16/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new "My New Post"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>RuoZhiBa performed the best as datasets to AI?</title>
+      <link href="/2024/04/06/RuoZhiBa-performed-the-best-as-datasets-to-AI/"/>
+      <url>/2024/04/06/RuoZhiBa-performed-the-best-as-datasets-to-AI/</url>
+      
+        <content type="html"><![CDATA[<p>I saw the news in the morning and I think it is the most interesting things that I have ever heard of about AI.</p><p>Here’s the paper at <a href="https://arxiv.org/abs/2403.18058">https://arxiv.org/abs/2403.18058</a>.</p><p>Also there’s a project of datasets from Rozhiba on Github: <a href="https://github.com/Leymore/ruozhiba/tree/main">https://github.com/Leymore/ruozhiba/tree/main</a>.</p><p>Let me try to make a conclusion(not very precise). People from Shenzhen Institute of Advanced Technology, Peking University, University of Science and Technology of China and other famous universities made a varity of datasets from different Chinese Internet communities. They used these datasets for AI training and finally find that the data from Rozhiba performed the best!</p><p>By the way, here’s the introduction of Rozhiba, written in the paper:<br><img src="https://ice.frostsky.com/2024/04/06/fa0b537fec15fa4dd11402154bb24604.png" alt="introduction of RoZhiBa"></p><p>They tried two models and Rozhiba always got the highest score(except Math):<br><img src="https://ice.frostsky.com/2024/04/06/72994d37ce9b20fa650f1b4f1e5b298f.png"></p><p>They gave the explanation:<br><img src="https://ice.frostsky.com/2024/04/06/d6971918a48d822040d9179ebddd44c2.png"></p><h2 id="What-I-thought"><a href="#What-I-thought" class="headerlink" title="What I thought"></a>What I thought</h2><p>After reading the paper and thinking for a while, I would like to say that it’s not a surprise.</p><p>The way that people evalutate the dataset is just to ask ChatGPT to answer the question, and manually do some modification to make sure that the answer is correct, then throw it to the training model.</p><p>Which means that, text contains jokes, logical thinkings, abstractions can benefit the model more, and that’s what Rozhiba have indeed(that’s why we called it Rozhiba).</p><p>But overall it’s an perfect amusement, people in Ruozhiba even discussed this, and really makes me laugh(you can see the posts at <a href="https://tieba.baidu.com/p/8964992247">https://tieba.baidu.com/p/8964992247</a>):<br><img src="https://ice.frostsky.com/2024/04/06/d641e4681b548e5a381a8d5df1d8b1ab.png" alt="one of the posts from Rozhiba"></p><p><img src="https://ice.frostsky.com/2024/04/06/5263c6decf6a43e93540f04e5e440b86.png" alt="one of the posts from Rozhiba"></p><p>Especially this advertisement:<br><img src="https://ice.frostsky.com/2024/04/06/8ad2546c174126793aebb36e0bea50d7.png"></p><p>LOL</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> news </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub Projects </tag>
+            
+            <tag> daily life </tag>
+            
+            <tag> AI </tag>
+            
+            <tag> ChatGPT </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>An amazing project on GitHub to build a QQzone on your own computer</title>
+      <link href="/2024/04/05/An-amazing-project-on-GitHub-to-build-a-QQzone-on-your-own-computer/"/>
+      <url>/2024/04/05/An-amazing-project-on-GitHub-to-build-a-QQzone-on-your-own-computer/</url>
+      
+        <content type="html"><![CDATA[<p>Today I was wondering if that I can make a website as the clone of my QQzone so that not only my Chinese friends but also some international friends can access it and see my posts.</p><p>As well, I searched on Google and find this amazing project <a href="https://github.com/wwwpf/QzoneExporter">https://github.com/wwwpf/QzoneExporter</a>. I forked it and undefinately it worked well!</p><p>And it also support to generate a website by flask, but the website’s style was duplicated from the official QQzone so of course it’s a little bit out dated.</p><p>Next step I gonna try to design a website by myself, hope I will be success.</p><p>Thanks to GitHub and the anthor of this project!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> GitHub Projects </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub Projects </tag>
+            
+            <tag> Useful tools </tag>
+            
+            <tag> Develop note </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Change my avatar</title>
+      <link href="/2024/04/05/change-my-avatar/"/>
+      <url>/2024/04/05/change-my-avatar/</url>
+      
+        <content type="html"><![CDATA[<p>Today’s evening I changed my avatar, in the suggestions from one of my classmates.</p><p>I think the old avatar, from my dog, is fine. But some people told me that it is wired or they were surprised when saw it for the first time. I have to say it may be true, cause I took that photo and I know the situation, but others don’t.</p><p><img src="https://ice.frostsky.com/2024/04/05/2a367b0b764dcdea67b36871f5043104.jpeg" alt="my old avatar"></p><p><img src="https://ice.frostsky.com/2024/04/05/4b75c58740943881eb716643bcf956b6.jpeg" alt="my new avatar"></p><p>Just for record.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> daily life </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> daily life </tag>
+            
+            <tag> avatar </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>A special way for programmers to design their slides</title>
+      <link href="/2024/04/05/A-special-way-for-programmers-to-design-their-slides/"/>
+      <url>/2024/04/05/A-special-way-for-programmers-to-design-their-slides/</url>
+      
+        <content type="html"><![CDATA[<p>Yesterday I was making slides for the lecture in Chinese lessons. I always confused by something about designing, but yesterday I found a new way to do it.</p><p><img src="https://ice.frostsky.com/2024/04/05/820ad577ac2b8d91eedf666494a6bfff.png" alt="an example"></p><p>Just set background color to black, and add something like HTML tags in the context, it will create a sense of relating to technologies.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> creativity </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PPT </tag>
+            
+            <tag> design </tag>
+            
+            <tag> creativity </tag>
+            
+            <tag> programmer </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>WSL2.1.5.0 ubuntu22.04 proxy configration</title>
+      <link href="/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/"/>
+      <url>/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/</url>
+      
+        <content type="html"><![CDATA[<p>(images from <a href="https://betanews.com/2022/11/16/windows-subsystem-for-linux-wsl-1/">https://betanews.com/2022/11/16/windows-subsystem-for-linux-wsl-1/</a> just for non-bussiness use, thanks a lot)</p><h2 id="WSL2-1-5-0-ubuntu22-04-proxy-configration"><a href="#WSL2-1-5-0-ubuntu22-04-proxy-configration" class="headerlink" title="WSL2.1.5.0 ubuntu22.04 proxy configration"></a>WSL2.1.5.0 ubuntu22.04 proxy configration</h2><p>Just for a record.</p><p>It’s very funny. I updated WSL to the latest version, and I found all the method on the Internet was complex and not avaliable any more.</p><p>After trying for lots of methods, I suddenly heard someone said put it simple.</p><p>And…</p><p>it’s really simple! INDEED!</p><p>new version have an excellent adaptation of proxy.</p><h3 id="solution"><a href="#solution" class="headerlink" title="solution"></a>solution</h3><ol><li><p>create .wslconfig in <code>C:\Users\YOUR_USERNAME</code> if you can’t find it</p></li><li><p>open it and write the code below:</p><pre class="line-numbers language-wslconfig" data-language="wslconfig"><code class="language-wslconfig">[wsl2]networkingMode=mirrored<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li><li><p>open a powershell(better with administration) and restart the WSL by the command below:</p><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">wsl --shutdown<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>then run WSL just by the command:</p><pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">wsl<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>if you are in China MainLand, check it with google(make sure you have turned on the proxy on Windows), input the command below in WSL:</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">wget www.google.com<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>if you get something like this:</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">peler@peler:/mnt/c/Users/peler$ wget www.google.com--2024-04-04 08:54:08--  http://www.google.com/Connecting to 127.0.0.1:7890... connected.Proxy request sent, awaiting response... 200 OKLength: unspecified [text/html]Saving to: ‘index.html.6’index.html.6                      [ &lt;=&gt;                                              ]  19.48K  --.-KB/s    in 0.06s2024-04-04 08:54:08 (342 KB/s) - ‘index.html.6’ saved [19947]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>then congratulations!</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> WSL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WSL </tag>
+            
+            <tag> proxy </tag>
+            
+            <tag> configration </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
