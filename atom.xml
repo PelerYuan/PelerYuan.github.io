@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-17T11:09:00.680Z</updated>
+  <updated>2024-09-17T11:17:57.365Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>virtual box端口共享配置.md</title>
+    <link href="http://www.blog.peler.top/2024/09/17/box%E7%AB%AF%E5%8F%A3%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE/"/>
+    <id>http://www.blog.peler.top/2024/09/17/box%E7%AB%AF%E5%8F%A3%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE/</id>
+    <published>2024-09-17T11:11:42.000Z</published>
+    <updated>2024-09-17T11:17:57.365Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;场景1：主机共享到虚拟机&quot;&gt;&lt;a href=&quot;#场景1：主机共享到虚拟机&quot; class=&quot;headerlink&quot; title=&quot;场景1：主机共享到虚拟机&quot;&gt;&lt;/a&gt;场景1：主机共享到虚拟机&lt;/h2&gt;&lt;p&gt;网络模式选择 NAT, 在虚拟机中直接访问虚拟 IP</summary>
+        
+      
+    
+    
+    
+    <category term="configration" scheme="http://www.blog.peler.top/categories/configration/"/>
+    
+    
+    <category term="virtual box" scheme="http://www.blog.peler.top/tags/virtual-box/"/>
+    
+    <category term="server" scheme="http://www.blog.peler.top/tags/server/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>WSL2.1.5.0, ubuntu22.04 proxy configration</title>
     <link href="http://www.blog.peler.top/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/"/>
     <id>http://www.blog.peler.top/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/</id>
     <published>2024-04-04T00:40:38.000Z</published>
-    <updated>2024-09-17T11:09:00.680Z</updated>
+    <updated>2024-09-17T11:17:51.129Z</updated>
     
     
       
@@ -34,7 +63,7 @@
     
     
     
-    <category term="WSL" scheme="http://www.blog.peler.top/categories/WSL/"/>
+    <category term="configration" scheme="http://www.blog.peler.top/categories/configration/"/>
     
     
     <category term="WSL" scheme="http://www.blog.peler.top/tags/WSL/"/>
