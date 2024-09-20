@@ -18,8 +18,8 @@
   
   <entry>
     <title>创建用于安装Windows服务的安装包要踩的坑.md</title>
-    <link href="http://www.blog.peler.top/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85-md/"/>
-    <id>http://www.blog.peler.top/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85-md/</id>
+    <link href="http://www.blog.peler.top/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/"/>
+    <id>http://www.blog.peler.top/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/</id>
     <published>2024-09-20T17:01:31.000Z</published>
     <updated>2024-09-20T17:10:14.221Z</updated>
     
@@ -53,18 +53,14 @@
     <link href="http://www.blog.peler.top/2024/09/19/Windows%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
     <id>http://www.blog.peler.top/2024/09/19/Windows%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/</id>
     <published>2024-09-19T14:09:49.000Z</published>
-    <updated>2024-09-20T17:00:10.229Z</updated>
+    <updated>2024-09-20T17:20:34.459Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;上一篇提到先确保 EXE 文件可以被注册成服务，否则就会出现上个文章所描述的诡异情况。&lt;/p&gt;
-&lt;p&gt;搞懂了之后回想，Microshit 可以体现在以下几个方面：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;不支持的 EXE 被注册成服务不报错&lt;/li&gt;
-&lt;li&gt;不支持的 EXE</summary>
+    <summary type="html">&lt;a href=&quot;/2024/09/18/Windows%E6%B3%A8%E5%86%8C%E6%9C%8D%E5%8A%A1/&quot; title=&quot;Windows注册服务注意点&quot;&gt;上一篇文章&lt;/a&gt;提到先确保 EXE</summary>
         
       
     
@@ -82,11 +78,11 @@
   </entry>
   
   <entry>
-    <title>Windows注册服务</title>
+    <title>Windows注册服务注意点</title>
     <link href="http://www.blog.peler.top/2024/09/18/Windows%E6%B3%A8%E5%86%8C%E6%9C%8D%E5%8A%A1/"/>
     <id>http://www.blog.peler.top/2024/09/18/Windows%E6%B3%A8%E5%86%8C%E6%9C%8D%E5%8A%A1/</id>
     <published>2024-09-18T15:16:05.000Z</published>
-    <updated>2024-09-18T15:30:15.626Z</updated>
+    <updated>2024-09-20T17:19:22.863Z</updated>
     
     
       
@@ -142,7 +138,7 @@
     <link href="http://www.blog.peler.top/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/"/>
     <id>http://www.blog.peler.top/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/</id>
     <published>2024-04-04T00:40:38.000Z</published>
-    <updated>2024-09-18T15:33:06.015Z</updated>
+    <updated>2024-09-20T17:21:25.278Z</updated>
     
     
       
