@@ -4,7 +4,36 @@
   
     
     <entry>
-      <title>创建用于安装Windows服务的安装包要踩的坑.md</title>
+      <title>使用NSSM创建Windows服务</title>
+      <link href="/2024/09/21/%E4%BD%BF%E7%94%A8NSSM%E5%88%9B%E5%BB%BAWindows%E6%9C%8D%E5%8A%A1/"/>
+      <url>/2024/09/21/%E4%BD%BF%E7%94%A8NSSM%E5%88%9B%E5%BB%BAWindows%E6%9C%8D%E5%8A%A1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="创建服务"><a href="#创建服务" class="headerlink" title="创建服务"></a>创建服务</h2><p>使用以下命令创建服务：</p><pre class="line-numbers language-none"><code class="language-none">nssm install 服务名称<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>运行上述命令后，会弹出一个图形界面，要求你配置服务的详细信息。</p><p>如果不想要图形界面，直接制定 EXE 文件，则可以：</p><pre class="line-numbers language-none"><code class="language-none">nssm install 服务名称 "可执行文件的完整路径"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h2><p>配置完成后，可以使用以下命令启动服务：</p><pre class="line-numbers language-none"><code class="language-none">nssm start 服务名称<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="停止和删除服务"><a href="#停止和删除服务" class="headerlink" title="停止和删除服务"></a>停止和删除服务</h2><pre class="line-numbers language-none"><code class="language-none">nssm stop 服务名称<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>如果 remove 后面加上 confirm，可以直接删除而不需要 GUI 界面确认:</p><pre class="line-numbers language-none"><code class="language-none">nssm stop 服务名称<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="查看服务状态"><a href="#查看服务状态" class="headerlink" title="查看服务状态"></a>查看服务状态</h2><pre class="line-numbers language-none"><code class="language-none">sc query 服务名称<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>NSSM 非常方便，因为它能够将普通的应用程序注册为服务，并在应用程序崩溃时自动重启。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows configration </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows service </tag>
+            
+            <tag> 中文 </tag>
+            
+            <tag> NSSM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>创建用于安装Windows服务的安装包要踩的坑</title>
       <link href="/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/"/>
       <url>/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/</url>
       
@@ -73,7 +102,7 @@
       
       <categories>
           
-          <category> Powershell/CMD </category>
+          <category> SysyncWin 开发踩坑日记 </category>
           
       </categories>
       
@@ -100,7 +129,7 @@
       
       <categories>
           
-          <category> configration </category>
+          <category> virtual machine </category>
           
       </categories>
       
@@ -129,7 +158,7 @@
       
       <categories>
           
-          <category> configration </category>
+          <category> Windows configration </category>
           
       </categories>
       

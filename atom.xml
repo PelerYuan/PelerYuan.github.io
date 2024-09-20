@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-20T17:10:14.221Z</updated>
+  <updated>2024-09-20T17:35:26.533Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>创建用于安装Windows服务的安装包要踩的坑.md</title>
+    <title>使用NSSM创建Windows服务</title>
+    <link href="http://www.blog.peler.top/2024/09/21/%E4%BD%BF%E7%94%A8NSSM%E5%88%9B%E5%BB%BAWindows%E6%9C%8D%E5%8A%A1/"/>
+    <id>http://www.blog.peler.top/2024/09/21/%E4%BD%BF%E7%94%A8NSSM%E5%88%9B%E5%BB%BAWindows%E6%9C%8D%E5%8A%A1/</id>
+    <published>2024-09-20T17:25:46.000Z</published>
+    <updated>2024-09-20T17:35:26.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;创建服务&quot;&gt;&lt;a href=&quot;#创建服务&quot; class=&quot;headerlink&quot; title=&quot;创建服务&quot;&gt;&lt;/a&gt;创建服务&lt;/h2&gt;&lt;p&gt;使用以下命令创建服务：&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="Windows configration" scheme="http://www.blog.peler.top/categories/Windows-configration/"/>
+    
+    
+    <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="NSSM" scheme="http://www.blog.peler.top/tags/NSSM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>创建用于安装Windows服务的安装包要踩的坑</title>
     <link href="http://www.blog.peler.top/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/"/>
     <id>http://www.blog.peler.top/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85/</id>
     <published>2024-09-20T17:01:31.000Z</published>
-    <updated>2024-09-20T17:10:14.221Z</updated>
+    <updated>2024-09-20T17:35:51.710Z</updated>
     
     
       
@@ -82,7 +112,7 @@
     <link href="http://www.blog.peler.top/2024/09/18/Windows%E6%B3%A8%E5%86%8C%E6%9C%8D%E5%8A%A1/"/>
     <id>http://www.blog.peler.top/2024/09/18/Windows%E6%B3%A8%E5%86%8C%E6%9C%8D%E5%8A%A1/</id>
     <published>2024-09-18T15:16:05.000Z</published>
-    <updated>2024-09-20T17:19:22.863Z</updated>
+    <updated>2024-09-20T17:28:25.537Z</updated>
     
     
       
@@ -95,7 +125,7 @@
     
     
     
-    <category term="Powershell/CMD" scheme="http://www.blog.peler.top/categories/Powershell-CMD/"/>
+    <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
@@ -109,7 +139,7 @@
     <link href="http://www.blog.peler.top/2024/09/17/box%E7%AB%AF%E5%8F%A3%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE/"/>
     <id>http://www.blog.peler.top/2024/09/17/box%E7%AB%AF%E5%8F%A3%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE/</id>
     <published>2024-09-17T11:11:42.000Z</published>
-    <updated>2024-09-20T17:11:12.123Z</updated>
+    <updated>2024-09-20T17:29:06.633Z</updated>
     
     
       
@@ -122,7 +152,7 @@
     
     
     
-    <category term="configration" scheme="http://www.blog.peler.top/categories/configration/"/>
+    <category term="virtual machine" scheme="http://www.blog.peler.top/categories/virtual-machine/"/>
     
     
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
@@ -138,7 +168,7 @@
     <link href="http://www.blog.peler.top/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/"/>
     <id>http://www.blog.peler.top/2024/04/04/WSL2-1-5-0-ubuntu22-04-proxy-configration/</id>
     <published>2024-04-04T00:40:38.000Z</published>
-    <updated>2024-09-20T17:21:25.278Z</updated>
+    <updated>2024-09-20T17:29:20.329Z</updated>
     
     
       
@@ -151,7 +181,7 @@
     
     
     
-    <category term="configration" scheme="http://www.blog.peler.top/categories/configration/"/>
+    <category term="Windows configration" scheme="http://www.blog.peler.top/categories/Windows-configration/"/>
     
     
     <category term="WSL" scheme="http://www.blog.peler.top/tags/WSL/"/>
