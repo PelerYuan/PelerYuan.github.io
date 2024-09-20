@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>BAT中使用相对路径</title>
+      <link href="/2024/09/21/BAT%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/"/>
+      <url>/2024/09/21/BAT%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/</url>
+      
+        <content type="html"><![CDATA[<p>使用 <code>%~dp0</code> 变量获取当前 Bat 文件的位置。</p><p>所以比如说访问上级文件夹，就是：</p><pre class="line-numbers language-none"><code class="language-none">%~dp0\..\<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>真是 Microshit，这样写就是不让人看懂的是吧……</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> PowerShell/CMD </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Bat </tag>
+            
+            <tag> Microshit </tag>
+            
+            <tag> 中文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用NSSM创建Windows服务</title>
       <link href="/2024/09/21/%E4%BD%BF%E7%94%A8NSSM%E5%88%9B%E5%BB%BAWindows%E6%9C%8D%E5%8A%A1/"/>
       <url>/2024/09/21/%E4%BD%BF%E7%94%A8NSSM%E5%88%9B%E5%BB%BAWindows%E6%9C%8D%E5%8A%A1/</url>
@@ -20,9 +49,9 @@
       
         <tags>
             
-            <tag> Windows service </tag>
-            
             <tag> 中文 </tag>
+            
+            <tag> Windows service </tag>
             
             <tag> NSSM </tag>
             
@@ -49,11 +78,11 @@
       
         <tags>
             
-            <tag> Windows service </tag>
-            
             <tag> Microshit </tag>
             
             <tag> 中文 </tag>
+            
+            <tag> Windows service </tag>
             
             <tag> Installer </tag>
             
@@ -80,11 +109,11 @@
       
         <tags>
             
-            <tag> Windows service </tag>
-            
             <tag> Microshit </tag>
             
             <tag> 中文 </tag>
+            
+            <tag> Windows service </tag>
             
         </tags>
       
@@ -109,9 +138,9 @@
       
         <tags>
             
-            <tag> Windows service </tag>
-            
             <tag> 中文 </tag>
+            
+            <tag> Windows service </tag>
             
         </tags>
       
