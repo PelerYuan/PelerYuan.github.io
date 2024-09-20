@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-20T17:00:10.229Z</updated>
+  <updated>2024-09-20T17:10:14.221Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>创建用于安装Windows服务的安装包要踩的坑.md</title>
+    <link href="http://www.blog.peler.top/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85-md/"/>
+    <id>http://www.blog.peler.top/2024/09/21/%E5%88%9B%E5%BB%BA%E7%94%A8%E4%BA%8E%E5%AE%89%E8%A3%85Windows%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85-md/</id>
+    <published>2024-09-20T17:01:31.000Z</published>
+    <updated>2024-09-20T17:10:14.221Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;创建安装包使用的软件&quot;&gt;&lt;a href=&quot;#创建安装包使用的软件&quot; class=&quot;headerlink&quot; title=&quot;创建安装包使用的软件&quot;&gt;&lt;/a&gt;创建安装包使用的软件&lt;/h2&gt;&lt;p&gt;Inno Setup（图形界面引导，非常好用）&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
+    
+    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows服务注册踩坑日记</title>
