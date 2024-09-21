@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-21T10:53:27.186Z</updated>
+  <updated>2024-09-21T10:57:50.684Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>InnoSetup安装卸载时运行Bat</title>
+    <link href="http://www.blog.peler.top/2024/09/21/InnoSetup%E5%AE%89%E8%A3%85%E5%8D%B8%E8%BD%BD%E6%97%B6%E8%BF%90%E8%A1%8CBat/"/>
+    <id>http://www.blog.peler.top/2024/09/21/InnoSetup%E5%AE%89%E8%A3%85%E5%8D%B8%E8%BD%BD%E6%97%B6%E8%BF%90%E8%A1%8CBat/</id>
+    <published>2024-09-21T10:55:15.000Z</published>
+    <updated>2024-09-21T10:57:50.684Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-Inno&quot; data-language=&quot;Inno&quot;&gt;&lt;div class=&quot;caption&quot;&gt;&lt;span&gt;Setup&lt;/span&gt;&lt;/div&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="Windows programming" scheme="http://www.blog.peler.top/categories/Windows-programming/"/>
+    
+    
+    <category term="Bat" scheme="http://www.blog.peler.top/tags/Bat/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
+    
+    <category term="Inno Setup" scheme="http://www.blog.peler.top/tags/Inno-Setup/"/>
+    
+  </entry>
   
   <entry>
     <title>使用虚拟机需要注意的点</title>
@@ -189,9 +220,9 @@
     
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
     
-    <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
-    
     <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
+    
+    <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
     
   </entry>
   
