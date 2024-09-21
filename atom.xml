@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-20T17:41:22.502Z</updated>
+  <updated>2024-09-21T04:23:27.304Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SysyncWin测试虚拟机配置</title>
+    <link href="http://www.blog.peler.top/2024/09/21/SysyncWin%E6%B5%8B%E8%AF%95%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/"/>
+    <id>http://www.blog.peler.top/2024/09/21/SysyncWin%E6%B5%8B%E8%AF%95%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/</id>
+    <published>2024-09-21T04:11:28.000Z</published>
+    <updated>2024-09-21T04:23:27.304Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/.top//09/21/SysyncWin%E6%B5%8B%E8%AF%95%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="virtual box" scheme="http://www.blog.peler.top/tags/virtual-box/"/>
+    
+  </entry>
   
   <entry>
     <title>BAT中使用相对路径</title>
@@ -170,7 +198,7 @@
     <link href="http://www.blog.peler.top/2024/09/17/box%E7%AB%AF%E5%8F%A3%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE/"/>
     <id>http://www.blog.peler.top/2024/09/17/box%E7%AB%AF%E5%8F%A3%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE/</id>
     <published>2024-09-17T11:11:42.000Z</published>
-    <updated>2024-09-20T17:29:06.633Z</updated>
+    <updated>2024-09-21T04:12:15.277Z</updated>
     
     
       
@@ -189,8 +217,6 @@
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
     
     <category term="virtual box" scheme="http://www.blog.peler.top/tags/virtual-box/"/>
-    
-    <category term="server" scheme="http://www.blog.peler.top/tags/server/"/>
     
   </entry>
   
