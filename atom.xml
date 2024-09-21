@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-21T04:58:36.256Z</updated>
+  <updated>2024-09-21T10:50:10.746Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用虚拟机需要注意的点</title>
+    <link href="http://www.blog.peler.top/2024/09/21/%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E7%82%B9/"/>
+    <id>http://www.blog.peler.top/2024/09/21/%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E7%82%B9/</id>
+    <published>2024-09-21T10:49:40.000Z</published>
+    <updated>2024-09-21T10:50:10.746Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;随时备份&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;随时备份&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;随时备份&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="virtual machine" scheme="http://www.blog.peler.top/categories/virtual-machine/"/>
+    
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="virtual box" scheme="http://www.blog.peler.top/tags/virtual-box/"/>
+    
+  </entry>
   
   <entry>
     <title>临时扩大swap大小</title>
