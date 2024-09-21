@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>临时扩大swap大小</title>
+      <link href="/2024/09/21/%E4%B8%B4%E6%97%B6%E6%89%A9%E5%A4%A7swap%E5%A4%A7%E5%B0%8F/"/>
+      <url>/2024/09/21/%E4%B8%B4%E6%97%B6%E6%89%A9%E5%A4%A7swap%E5%A4%A7%E5%B0%8F/</url>
+      
+        <content type="html"><![CDATA[<p>最近在跑虚拟机，内存压力有点大。临时创建 swap 分区可以分担压力。</p><h2 id="创建-Swap-文件"><a href="#创建-Swap-文件" class="headerlink" title="创建 Swap 文件"></a>创建 Swap 文件</h2><p>创建一个大小为 2GB 的 Swap 文件：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo fallocate -l 2G /swapfile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>如果 fallocate 不可用，可以使用以下命令：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo dd if=/dev/zero of=/swapfile bs=1M count=2048<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="设置-Swap-文件权限"><a href="#设置-Swap-文件权限" class="headerlink" title="设置 Swap 文件权限"></a>设置 Swap 文件权限</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo chmod 600 /swapfile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="格式化-Swap-文件"><a href="#格式化-Swap-文件" class="headerlink" title="格式化 Swap 文件"></a>格式化 Swap 文件</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo mkswap /swapfile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="启用-Swap-文件"><a href="#启用-Swap-文件" class="headerlink" title="启用 Swap 文件"></a>启用 Swap 文件</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo swapon /swapfile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="将-Swap-文件添加到-fstab"><a href="#将-Swap-文件添加到-fstab" class="headerlink" title="将 Swap 文件添加到 fstab"></a>将 Swap 文件添加到 fstab</h2><p>编辑 /etc/fstab 文件，添加如下行：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">/swapfile none swap sw 0 0<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="验证-Swap-状态"><a href="#验证-Swap-状态" class="headerlink" title="验证 Swap 状态"></a>验证 Swap 状态</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">swapon --show<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="调整-Swap-优先级（可选）"><a href="#调整-Swap-优先级（可选）" class="headerlink" title="调整 Swap 优先级（可选）"></a>调整 Swap 优先级（可选）</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo swapon --priority 10 /swapfile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 中文 </tag>
+            
+            <tag> Linux system settings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SysyncWin测试虚拟机配置</title>
       <link href="/2024/09/21/SysyncWin%E6%B5%8B%E8%AF%95%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/"/>
       <url>/2024/09/21/SysyncWin%E6%B5%8B%E8%AF%95%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%85%8D%E7%BD%AE/</url>

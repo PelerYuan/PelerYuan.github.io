@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-21T04:49:58.453Z</updated>
+  <updated>2024-09-21T04:58:36.256Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>临时扩大swap大小</title>
+    <link href="http://www.blog.peler.top/2024/09/21/%E4%B8%B4%E6%97%B6%E6%89%A9%E5%A4%A7swap%E5%A4%A7%E5%B0%8F/"/>
+    <id>http://www.blog.peler.top/2024/09/21/%E4%B8%B4%E6%97%B6%E6%89%A9%E5%A4%A7swap%E5%A4%A7%E5%B0%8F/</id>
+    <published>2024-09-21T04:55:13.000Z</published>
+    <updated>2024-09-21T04:58:36.256Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近在跑虚拟机，内存压力有点大。临时创建 swap 分区可以分担压力。&lt;/p&gt;
+&lt;h2 id=&quot;创建-Swap-文件&quot;&gt;&lt;a href=&quot;#创建-Swap-文件&quot; class=&quot;headerlink&quot; title=&quot;创建 Swap 文件&quot;&gt;&lt;/a&gt;创建 Swap</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="http://www.blog.peler.top/categories/Linux/"/>
+    
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="Linux system settings" scheme="http://www.blog.peler.top/tags/Linux-system-settings/"/>
+    
+  </entry>
   
   <entry>
     <title>SysyncWin测试虚拟机配置</title>
