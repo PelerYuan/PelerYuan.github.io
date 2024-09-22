@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-21T10:57:50.684Z</updated>
+  <updated>2024-09-22T15:53:09.505Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows应用通过防火墙</title>
+    <link href="http://www.blog.peler.top/2024/09/22/Windows%E5%BA%94%E7%94%A8%E9%80%9A%E8%BF%87%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+    <id>http://www.blog.peler.top/2024/09/22/Windows%E5%BA%94%E7%94%A8%E9%80%9A%E8%BF%87%E9%98%B2%E7%81%AB%E5%A2%99/</id>
+    <published>2024-09-22T15:44:42.000Z</published>
+    <updated>2024-09-22T15:53:09.505Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天又是吐槽 Windows 的一天……&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-bat&quot; data-language=&quot;bat&quot;&gt;&lt;code class=&quot;language-bat&quot;&gt;cd &quot;%~dp0&quot;
+
+:: 设置程序路径
+set</summary>
+        
+      
+    
+    
+    
+    <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="Windows firewall" scheme="http://www.blog.peler.top/tags/Windows-firewall/"/>
+    
+  </entry>
   
   <entry>
     <title>InnoSetup安装卸载时运行Bat</title>

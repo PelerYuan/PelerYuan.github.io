@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Windows应用通过防火墙</title>
+      <link href="/2024/09/22/Windows%E5%BA%94%E7%94%A8%E9%80%9A%E8%BF%87%E9%98%B2%E7%81%AB%E5%A2%99/"/>
+      <url>/2024/09/22/Windows%E5%BA%94%E7%94%A8%E9%80%9A%E8%BF%87%E9%98%B2%E7%81%AB%E5%A2%99/</url>
+      
+        <content type="html"><![CDATA[<p>今天又是吐槽 Windows 的一天……</p><pre class="line-numbers language-bat" data-language="bat"><code class="language-bat">cd "%~dp0":: 设置程序路径set "ProgramPath=%~dp0..\SysyncWinClient.exe":: 删除现有规则（如果存在相同的规则名）netsh advfirewall firewall delete rule name="AllowYourAppInbound"netsh advfirewall firewall delete rule name="AllowYourAppOutbound":: 为程序添加防火墙入站规则（允许所有端口和协议）netsh advfirewall firewall add rule name="AllowYourAppInbound" dir=in action=allow program="%ProgramPath%" enable=yes profile=domain,private,public:: 为程序添加防火墙出站规则（允许所有端口和协议）netsh advfirewall firewall add rule name="AllowYourAppOutbound" dir=out action=allow program="%ProgramPath%" enable=yes profile=domain,private,public:: 提示成功echo firewall setting successpause<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>这是让指定程序通过 firewall 的脚本。</p><p>但是我一开始没有正常运行。</p><p>为什么？</p><p>因为我把</p><pre class="line-numbers language-bat" data-language="bat"><code class="language-bat">set "ProgramPath=%~dp0..\SysyncWinClient.exe"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>写成了</p><pre class="line-numbers language-bat" data-language="bat"><code class="language-bat">set "ProgramPath=%~dp0\..\SysyncWinClient.exe"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>由于 <code>%~dp0</code> 已经在末尾有一个 <code>\</code>，所以最终结果就变成：<code>C:\xxx\\..\SysyncWinClient.exe</code>。</p><p>之前我写脚本的时候注意到了，但是可以完美运行：</p><pre class="line-numbers language-bat" data-language="bat"><code class="language-bat">cd "%~dp0".\nssm install SysyncWin "%~dp0\..\SysyncWinClient.exe".\nssm start SysyncWin.\allow_firewall.batpause<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>所以我就没太在意这里，Microshit 输出的信息也是 <code>OK</code>，我就以为这个路径没问题。</p><p>可就是运行不了。</p><p>于是我又额外开了端口，等等等等……</p><p>最后一想，换了一个无效路径，发现还是输出 <code>OK</code>，没报错。</p><p>我就知道是 Microshit 发力了。</p><p>然后，抱着试一试的态度，改了以下路径：</p><p><strong>成了？！？</strong></p><h3 id="Micro-really-shit"><a href="#Micro-really-shit" class="headerlink" title="Micro really shit"></a>Micro really shit</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> SysyncWin 开发踩坑日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Microshit </tag>
+            
+            <tag> 中文 </tag>
+            
+            <tag> Windows firewall </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>InnoSetup安装卸载时运行Bat</title>
       <link href="/2024/09/21/InnoSetup%E5%AE%89%E8%A3%85%E5%8D%B8%E8%BD%BD%E6%97%B6%E8%BF%90%E8%A1%8CBat/"/>
       <url>/2024/09/21/InnoSetup%E5%AE%89%E8%A3%85%E5%8D%B8%E8%BD%BD%E6%97%B6%E8%BF%90%E8%A1%8CBat/</url>
