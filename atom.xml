@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-22T15:53:09.505Z</updated>
+  <updated>2024-09-24T12:38:27.005Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>externally-managed-</title>
+    <link href="http://www.blog.peler.top/2024/09/24/externally-managed-environment/"/>
+    <id>http://www.blog.peler.top/2024/09/24/externally-managed-environment/</id>
+    <published>2024-09-24T12:37:50.000Z</published>
+    <updated>2024-09-24T12:38:27.005Z</updated>
+    
+    
+    
+    
+    <category term="Python" scheme="http://www.blog.peler.top/categories/Python/"/>
+    
+    
+    <category term="English" scheme="http://www.blog.peler.top/tags/English/"/>
+    
+    <category term="pip" scheme="http://www.blog.peler.top/tags/pip/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows应用通过防火墙</title>
@@ -85,7 +104,7 @@ set</summary>
     <link href="http://www.blog.peler.top/2024/09/21/%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E7%82%B9/"/>
     <id>http://www.blog.peler.top/2024/09/21/%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E7%82%B9/</id>
     <published>2024-09-21T10:49:40.000Z</published>
-    <updated>2024-09-21T10:53:27.186Z</updated>
+    <updated>2024-09-24T12:38:35.527Z</updated>
     
     
       
@@ -101,7 +120,7 @@ set</summary>
     
     
     
-    <category term="virtual machine" scheme="http://www.blog.peler.top/categories/virtual-machine/"/>
+    <category term="Virtual machine" scheme="http://www.blog.peler.top/categories/Virtual-machine/"/>
     
     
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
@@ -320,7 +339,7 @@ set</summary>
     <link href="http://www.blog.peler.top/2024/09/17/box%E7%AB%AF%E5%8F%A3%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE/"/>
     <id>http://www.blog.peler.top/2024/09/17/box%E7%AB%AF%E5%8F%A3%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE/</id>
     <published>2024-09-17T11:11:42.000Z</published>
-    <updated>2024-09-21T04:12:15.277Z</updated>
+    <updated>2024-09-24T12:38:43.169Z</updated>
     
     
       
@@ -333,7 +352,7 @@ set</summary>
     
     
     
-    <category term="virtual machine" scheme="http://www.blog.peler.top/categories/virtual-machine/"/>
+    <category term="Virtual machine" scheme="http://www.blog.peler.top/categories/Virtual-machine/"/>
     
     
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
