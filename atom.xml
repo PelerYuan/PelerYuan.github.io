@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-24T12:38:27.005Z</updated>
+  <updated>2024-09-24T12:45:25.144Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -17,12 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>externally-managed-</title>
+    <title>sudo apt install python3-pyside6</title>
     <link href="http://www.blog.peler.top/2024/09/24/externally-managed-environment/"/>
     <id>http://www.blog.peler.top/2024/09/24/externally-managed-environment/</id>
     <published>2024-09-24T12:37:50.000Z</published>
-    <updated>2024-09-24T12:38:27.005Z</updated>
+    <updated>2024-09-24T12:45:25.144Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Today, apt running &lt;code&gt;sudo apt install pyqt5-dev-tools&lt;/code&gt;, I wanted to install &lt;code&gt;PyQt5&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
+        
+      
     
     
     
@@ -32,6 +41,8 @@
     <category term="English" scheme="http://www.blog.peler.top/tags/English/"/>
     
     <category term="pip" scheme="http://www.blog.peler.top/tags/pip/"/>
+    
+    <category term="pyqt/pyside" scheme="http://www.blog.peler.top/tags/pyqt-pyside/"/>
     
   </entry>
   

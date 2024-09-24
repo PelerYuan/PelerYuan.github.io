@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>externally-managed-</title>
+      <title>sudo apt install python3-pyside6</title>
       <link href="/2024/09/24/externally-managed-environment/"/>
       <url>/2024/09/24/externally-managed-environment/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>Today, apt running <code>sudo apt install pyqt5-dev-tools</code>, I wanted to install <code>PyQt5</code>:</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip install pyqt5<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>The error occured:</p><pre class="line-numbers language-none"><code class="language-none">error: externally-managed-environment× This environment is externally managed╰─&gt; To install Python packages system-wide, try apt install    python3-xyz, where xyz is the package you are trying to    install.        If you wish to install a non-Debian-packaged Python package,    create a virtual environment using python3 -m venv path/to/venv.    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make    sure you have python3-full installed.        If you wish to install a non-Debian packaged Python application,    it may be easiest to use pipx install xyz, which will manage a    virtual environment for you. Make sure you have pipx installed.        See /usr/share/doc/python3.12/README.venv for more information.note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.hint: See PEP 668 for the detailed specification.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>I tried to reinstall python and pip, but that didn’t work.</p><p>Then, by asking ChatGPT, here’s the solution:</p><ol><li>Using –break-system-packages<br>The reason why this error occured is that pip thinks your packages are controlled by the system. So use this command can help cancel this setting:</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">pip install pyqt5 --break-system-packages<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol start="2"><li>Installing System-Wide Packages with apt<br>Simply using apt is fine:</li></ol><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo apt install python3-pyqt5<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
       
       
       <categories>
@@ -23,6 +23,8 @@
             <tag> English </tag>
             
             <tag> pip </tag>
+            
+            <tag> pyqt/pyside </tag>
             
         </tags>
       
