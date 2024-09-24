@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-24T12:45:25.144Z</updated>
+  <updated>2024-09-24T12:57:15.465Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>尝试从PyQt5转到PySide6</title>
+    <link href="http://www.blog.peler.top/2024/09/24/%E5%B0%9D%E8%AF%95%E4%BB%8EPyQt5%E8%BD%AC%E5%88%B0PySide6/"/>
+    <id>http://www.blog.peler.top/2024/09/24/%E5%B0%9D%E8%AF%95%E4%BB%8EPyQt5%E8%BD%AC%E5%88%B0PySide6/</id>
+    <published>2024-09-24T12:55:49.000Z</published>
+    <updated>2024-09-24T12:57:15.465Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天，经过深思熟虑，决定尝试</summary>
+        
+      
+    
+    
+    
+    <category term="python" scheme="http://www.blog.peler.top/categories/python/"/>
+    
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="pyqt/pyside" scheme="http://www.blog.peler.top/tags/pyqt-pyside/"/>
+    
+  </entry>
   
   <entry>
     <title>sudo apt install python3-pyside6</title>
