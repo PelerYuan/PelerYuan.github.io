@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-24T12:57:41.793Z</updated>
+  <updated>2024-09-28T13:13:13.715Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好久没更新了，记录一下生活</title>
+    <link href="http://www.blog.peler.top/2024/09/28/%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E7%94%9F%E6%B4%BB/"/>
+    <id>http://www.blog.peler.top/2024/09/28/%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E7%94%9F%E6%B4%BB/</id>
+    <published>2024-09-28T13:10:52.000Z</published>
+    <updated>2024-09-28T13:13:13.715Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天在机房待了一整天。主要写我的 HaoCiKuaiJi3.0 项目&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;爽&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;感谢</summary>
+        
+      
+    
+    
+    
+    <category term="Dailt Life" scheme="http://www.blog.peler.top/categories/Dailt-Life/"/>
+    
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="pyqt/pyside" scheme="http://www.blog.peler.top/tags/pyqt-pyside/"/>
+    
+  </entry>
   
   <entry>
     <title>尝试从PyQt5转到PySide6</title>
