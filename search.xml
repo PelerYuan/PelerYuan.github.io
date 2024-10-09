@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> Dailt Life </category>
+          <category> Daily Life </category>
           
       </categories>
       
@@ -103,9 +103,9 @@
       
         <tags>
             
-            <tag> Microshit </tag>
-            
             <tag> 中文 </tag>
+            
+            <tag> Microshit </tag>
             
             <tag> Windows firewall </tag>
             
@@ -132,13 +132,13 @@
       
         <tags>
             
-            <tag> Bat </tag>
-            
-            <tag> 中文 </tag>
-            
             <tag> Installer </tag>
             
             <tag> Inno Setup </tag>
+            
+            <tag> Bat </tag>
+            
+            <tag> 中文 </tag>
             
         </tags>
       
@@ -246,9 +246,9 @@
             
             <tag> Bat </tag>
             
-            <tag> Microshit </tag>
-            
             <tag> 中文 </tag>
+            
+            <tag> Microshit </tag>
             
         </tags>
       
@@ -302,11 +302,11 @@
       
         <tags>
             
-            <tag> Microshit </tag>
+            <tag> Installer </tag>
             
             <tag> 中文 </tag>
             
-            <tag> Installer </tag>
+            <tag> Microshit </tag>
             
             <tag> Windows service </tag>
             
@@ -333,9 +333,9 @@
       
         <tags>
             
-            <tag> Microshit </tag>
-            
             <tag> 中文 </tag>
+            
+            <tag> Microshit </tag>
             
             <tag> Windows service </tag>
             

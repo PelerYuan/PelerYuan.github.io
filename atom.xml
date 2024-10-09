@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-09-28T13:13:13.715Z</updated>
+  <updated>2024-10-09T15:18:02.925Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.blog.peler.top/2024/09/28/%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E7%94%9F%E6%B4%BB/"/>
     <id>http://www.blog.peler.top/2024/09/28/%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E7%94%9F%E6%B4%BB/</id>
     <published>2024-09-28T13:10:52.000Z</published>
-    <updated>2024-09-28T13:13:13.715Z</updated>
+    <updated>2024-10-09T15:18:02.925Z</updated>
     
     
       
@@ -36,7 +36,7 @@
     
     
     
-    <category term="Dailt Life" scheme="http://www.blog.peler.top/categories/Dailt-Life/"/>
+    <category term="Daily Life" scheme="http://www.blog.peler.top/categories/Daily-Life/"/>
     
     
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
@@ -127,9 +127,9 @@ set</summary>
     <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
-    
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
     
     <category term="Windows firewall" scheme="http://www.blog.peler.top/tags/Windows-firewall/"/>
     
@@ -156,13 +156,13 @@ set</summary>
     <category term="Windows programming" scheme="http://www.blog.peler.top/categories/Windows-programming/"/>
     
     
-    <category term="Bat" scheme="http://www.blog.peler.top/tags/Bat/"/>
-    
-    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
-    
     <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
     
     <category term="Inno Setup" scheme="http://www.blog.peler.top/tags/Inno-Setup/"/>
+    
+    <category term="Bat" scheme="http://www.blog.peler.top/tags/Bat/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
     
   </entry>
   
@@ -277,9 +277,9 @@ set</summary>
     
     <category term="Bat" scheme="http://www.blog.peler.top/tags/Bat/"/>
     
-    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
-    
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
     
   </entry>
   
@@ -335,11 +335,11 @@ set</summary>
     <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
+    <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
     
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
     
-    <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
+    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
     
     <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
     
@@ -366,9 +366,9 @@ set</summary>
     <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
-    
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
     
     <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
     
