@@ -6,7 +6,7 @@
   <link href="http://www.blog.peler.top/atom.xml" rel="self"/>
   
   <link href="http://www.blog.peler.top/"/>
-  <updated>2024-10-09T15:18:02.925Z</updated>
+  <updated>2024-10-09T15:21:01.117Z</updated>
   <id>http://www.blog.peler.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git报错修复</title>
+    <link href="http://www.blog.peler.top/2024/10/09/Git%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D/"/>
+    <id>http://www.blog.peler.top/2024/10/09/Git%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D/</id>
+    <published>2024-10-09T15:18:46.000Z</published>
+    <updated>2024-10-09T15:21:01.117Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天写程序写到一半电脑突然崩了，打开后出现以下报错：&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-bash&quot; data-language=&quot;bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ git</summary>
+        
+      
+    
+    
+    
+    <category term="Git/GitHub" scheme="http://www.blog.peler.top/categories/Git-GitHub/"/>
+    
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>好久没更新了，记录一下生活</title>
@@ -127,9 +153,9 @@ set</summary>
     <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
-    
     <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
     
     <category term="Windows firewall" scheme="http://www.blog.peler.top/tags/Windows-firewall/"/>
     
@@ -156,13 +182,13 @@ set</summary>
     <category term="Windows programming" scheme="http://www.blog.peler.top/categories/Windows-programming/"/>
     
     
-    <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
-    
-    <category term="Inno Setup" scheme="http://www.blog.peler.top/tags/Inno-Setup/"/>
-    
     <category term="Bat" scheme="http://www.blog.peler.top/tags/Bat/"/>
     
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
+    
+    <category term="Inno Setup" scheme="http://www.blog.peler.top/tags/Inno-Setup/"/>
     
   </entry>
   
@@ -277,9 +303,9 @@ set</summary>
     
     <category term="Bat" scheme="http://www.blog.peler.top/tags/Bat/"/>
     
-    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
-    
     <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
     
   </entry>
   
@@ -335,11 +361,11 @@ set</summary>
     <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
+    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
     
     <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
     
-    <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
+    <category term="Installer" scheme="http://www.blog.peler.top/tags/Installer/"/>
     
     <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
     
@@ -366,9 +392,9 @@ set</summary>
     <category term="SysyncWin 开发踩坑日记" scheme="http://www.blog.peler.top/categories/SysyncWin-%E5%BC%80%E5%8F%91%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
-    
     <category term="Microshit" scheme="http://www.blog.peler.top/tags/Microshit/"/>
+    
+    <category term="中文" scheme="http://www.blog.peler.top/tags/%E4%B8%AD%E6%96%87/"/>
     
     <category term="Windows service" scheme="http://www.blog.peler.top/tags/Windows-service/"/>
     

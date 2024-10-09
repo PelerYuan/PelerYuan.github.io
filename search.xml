@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Git报错修复</title>
+      <link href="/2024/10/09/Git%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D/"/>
+      <url>/2024/10/09/Git%E6%8A%A5%E9%94%99%E4%BF%AE%E5%A4%8D/</url>
+      
+        <content type="html"><![CDATA[<p>今天写程序写到一半电脑突然崩了，打开后出现以下报错：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ git status...error: object file .git/objects/49/94e3dfafebc1125a6f397f9c08886074ed755f is empty error: object file .git/objects/29/00a127b31bdbd7873e7947c436bea1ff3c3b34 is empty error: object file .git/objects/2d/f7e40a27fa2ea19d4b63f453ceac9a034f5789 is empty error: object file .git/objects/c3/5120fed1d1524893cf56e5a924c62b3fedf9ee is empty error: object file .git/objects/1c/31ebbb0a773718c964581bd8f181551fac8bd2 is empty error: object file .git/objects/1c/31ebbb0a773718c964581bd8f181551fac8bd2 is empty error: object file .git/objects/1c/31ebbb0a773718c964581bd8f181551fac8bd2 is empty fatal: bad object HEAD<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>解决方案如下：</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">find .git/objects/ -type f -empty | xargs rmgit fetch -pgit fsck --full<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git/GitHub </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 中文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>好久没更新了，记录一下生活</title>
       <link href="/2024/09/28/%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E7%94%9F%E6%B4%BB/"/>
       <url>/2024/09/28/%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B%E7%94%9F%E6%B4%BB/</url>
@@ -103,9 +128,9 @@
       
         <tags>
             
-            <tag> 中文 </tag>
-            
             <tag> Microshit </tag>
+            
+            <tag> 中文 </tag>
             
             <tag> Windows firewall </tag>
             
@@ -132,13 +157,13 @@
       
         <tags>
             
-            <tag> Installer </tag>
-            
-            <tag> Inno Setup </tag>
-            
             <tag> Bat </tag>
             
             <tag> 中文 </tag>
+            
+            <tag> Installer </tag>
+            
+            <tag> Inno Setup </tag>
             
         </tags>
       
@@ -246,9 +271,9 @@
             
             <tag> Bat </tag>
             
-            <tag> 中文 </tag>
-            
             <tag> Microshit </tag>
+            
+            <tag> 中文 </tag>
             
         </tags>
       
@@ -302,11 +327,11 @@
       
         <tags>
             
-            <tag> Installer </tag>
+            <tag> Microshit </tag>
             
             <tag> 中文 </tag>
             
-            <tag> Microshit </tag>
+            <tag> Installer </tag>
             
             <tag> Windows service </tag>
             
@@ -333,9 +358,9 @@
       
         <tags>
             
-            <tag> 中文 </tag>
-            
             <tag> Microshit </tag>
+            
+            <tag> 中文 </tag>
             
             <tag> Windows service </tag>
             
