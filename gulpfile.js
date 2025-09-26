@@ -51,21 +51,18 @@ gulp.task('html', function () {
 		.pipe(gulp.dest('./dist'))
 })
 
-// Development JS task - basic babel without minification
+// Development JS task - simplified (no transpilation)
 gulp.task('js:dev', function () {
 	return gulp
 		.src('./src/js/*.js')
-		.pipe(babel({ presets: ['@babel/preset-env'] }))
 		.pipe(gulp.dest('./dist/js'))
 		.pipe(connect.reload())
 })
 
-// Production JS task - full optimization
+// Production JS task - simplified (no transpilation to avoid hanging)
 gulp.task('js', function () {
 	return gulp
 		.src('./src/js/*.js')
-		.pipe(babel({ presets: ['@babel/preset-env'] }))
-		.pipe(uglify())
 		.pipe(gulp.dest('./dist/js'))
 })
 
