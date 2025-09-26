@@ -1,0 +1,20 @@
+.content.content-main
+	#card
+		.card-inner.fade
+			header
+				img(src=`${main.avatar.link}` width=`${main.avatar.width}` height=`${main.avatar.height}` alt="avatar")
+				h1(data-translate="name") #{main.name}
+				h2#signature(data-translate="signature") #{main.signature}
+
+			- const order = ['blog','book','aboutme','galary','projects','email','github']
+			- const isExternal = href => href && (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0)
+			ul
+				each key in order
+					- const item = main.ul && main.ul[key]
+					if item
+						li
+							a(href=`${item.href}` aria-label=`${item.text}` target=isExternal(item.href) ? "_blank" : null)
+								i(class=`icon icon-${item.icon}`)
+								span(data-translate=`${item.text}`) #{item.text}
+
+	canvas.grid-background#gridCanvas

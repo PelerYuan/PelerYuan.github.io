@@ -1,0 +1,55 @@
+{
+	"head": {
+		"title": "Peler Yuan",
+		"description": "Author:Peler Yuan,Category:Personal Website",
+		"favicon": "favicon.ico"
+	},
+	"intro": {
+		"title": "Peler Yuan",
+		"subtitle": "Think Different. Built Different.",
+		"enter": "enter",
+		"supportAuthor": false,
+		"background": true
+	},
+	"main": {
+		"name": "Peler Yuan",
+		"signature": "I Make Things. Sometimes They Even Work.",
+		"avatar": {
+			"link": "assets/avatar.jpg",
+			"height": "150",
+			"width": "150"
+		},
+		"ul": {
+			"book": {
+				"href": "book/",
+				"icon": "book",
+				"text": "Book"
+			},
+			"aboutme": {
+				"href": "about/",
+				"icon": "xiaolian",
+				"text": "About"
+			},
+			"galary": {
+				"href": "galary/",
+				"icon": "xiangce",
+				"text": "Galary"
+			},
+			"projects": {
+				"href": "projects/",
+				"icon": "jiugongge",
+				"text": "Projects"
+			},
+			"email": {
+				"href": "mailto:pelerlittlep@gmail.com",
+				"icon": "email",
+				"text": "Email"
+			},
+			"github": {
+				"href": "https://github.com/PelerYuan",
+				"icon": "github",
+				"text": "Github"
+			}
+		}
+	}
+}
